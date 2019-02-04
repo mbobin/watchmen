@@ -13,6 +13,7 @@ gem 'dry-configurable'
 gem 'dry-container'
 gem 'pry'
 gem 'puma'
+gem 'procodile'
 
 group :test do
   gem 'rack-test'

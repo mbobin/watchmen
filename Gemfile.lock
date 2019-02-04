@@ -41,12 +41,15 @@ GEM
     influxdb (0.7.0)
     ipstack (0.1.1)
       nokogiri (~> 1.8.0)
+    json (2.1.0)
     method_source (0.9.2)
     mini_portile2 (2.3.0)
     mustermann (1.0.3)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     pr_geohash (1.0.0)
+    procodile (1.0.22)
+      json
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -92,6 +95,7 @@ DEPENDENCIES
   influxdb
   ipstack
   pr_geohash
+  procodile
   pry
   puma
   rack-test
@@ -100,4 +104,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.16.2
+   1.17.2
